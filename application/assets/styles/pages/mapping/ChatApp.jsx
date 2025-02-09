@@ -1,0 +1,78 @@
+import { StyleSheet } from "react-native";
+
+const ChatStyles = StyleSheet.create({
+  ChatApplication: {
+    flex: 1,
+    backgroundColor: "#FFFFFF",
+  },
+  ChatHeader: {
+    backgroundColor: "#FFFFFF",
+    flex: 0.15,
+    width: "100%",
+    height: 200,
+    borderBottomColor: "b252dc",
+    borderStyle: "solid",
+    borderBottomWidth: 3,
+  },
+  ChatParent: {
+    backgroundColor: "#FFFFFF",
+    flex: 0.2,
+  },
+  UserMessageContainer: {
+    backgroundColor: "#B252DC",
+    alignItems: "flex-start",
+    margin: 20,
+    padding: 20,
+    right: 0,
+    color: "white",
+    justifyContent: "flex-end",
+    alignSelf: "flex-end",
+    borderTopLeftRadius: 30,
+    borderBottomLeftRadius: 30,
+    borderBottomRightRadius: 30,
+    width: "60%",
+  },
+  BotMessageContainer: {
+    backgroundColor: "#EEEEEE",
+    alignItems: "flex-start",
+    margin: 20,
+    padding: 20,
+    left: 0,
+    color: "white",
+    justifyContent: "flex-start",
+    alignSelf: "flex-start",
+    borderBottomLeftRadius: 30,
+    borderBottomRightRadius: 30,
+    width: "60%",
+    borderTopRightRadius: 30,
+  },
+  UserMessageText: {
+    fontFamily: "DMSansLight",
+    color: "white",
+    lineHeight: 30,
+    textAlign: "right",
+    fontSize: 15,
+  },
+  BotMessageText: {
+    fontFamily: "DMSansLight",
+    color: "black",
+    lineHeight: 30,
+  },
+  InputContainerChat: {
+    backgroundColor: "#FFFFFF",
+    margin: 20,
+    padding: 20,
+    borderRadius: 30,
+    color: "white",
+    position: "absolute",
+    bottom: 0,
+    width: "90%",
+    marginBottom: 50,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+  },
+});
+
+export default ChatStyles;
